@@ -241,7 +241,7 @@
 
     
         <meta property="article:published_time" content="Mon Apr 02 2018 23:56:58 GMT+0800">
-        <meta property="article:modified_time" content="Tue Apr 03 2018 00:23:46 GMT+0800">
+        <meta property="article:modified_time" content="Tue Apr 03 2018 16:40:34 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -264,7 +264,7 @@
     "mainEntityOfPage": "http://www.aboutmydays.cn/2018/04/02/解决Maven更新编译版本变更/index.html",
     "headline": "解决Maven更新导致编译版本变更",
     "datePublished": "Mon Apr 02 2018 23:56:58 GMT+0800",
-    "dateModified": "Tue Apr 03 2018 00:23:46 GMT+0800",
+    "dateModified": "Tue Apr 03 2018 16:40:34 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "jack",
@@ -482,12 +482,7 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <h1 id="解决Maven更新导致编译版本变更"><a href="#解决Maven更新导致编译版本变更" class="headerlink" title="解决Maven更新导致编译版本变更"></a>解决Maven更新导致编译版本变更</h1><p>1.新建一个Maven项目JDK版本和系统版本不对应，<br>2.右键Maven项目-&gt;Maven-&gt;Update ProjectJDK版本改变了，<br>3.操作系统的JDK重装了新的版本，这是引起前面两个现象的主要原因。<br>修改方法（假如系统jdk版本是1.8）：<br>方法一：在pom.xml文件中指定jdk的版本:</p>
-<build><br>        <plugins><br>            <plugin><br>                <groupid>org.apache.maven.plugins</groupid><br>                <artifactid>maven-compiler-plugin</artifactid><br>                <version>3.1</version><br>                <configuration><br>                    <source>1.8<br>                    <target>1.8</target><br>                </configuration><br>            </plugin><br>        </plugins><br>    </build>  
-
-
-
-
+        <h1 id="解决Maven更新导致编译版本变更"><a href="#解决Maven更新导致编译版本变更" class="headerlink" title="解决Maven更新导致编译版本变更"></a>解决Maven更新导致编译版本变更</h1><p>1.新建一个Maven项目JDK版本和系统版本不对应，<br>2.右键Maven项目-&gt;Maven-&gt;Update ProjectJDK版本改变了，<br>3.操作系统的JDK重装了新的版本，这是引起前面两个现象的主要原因。<br>修改方法（假如系统jdk版本是1.8）：<br>方法一：在pom.xml文件中指定jdk的版本:<br><img src="http://p6ik6wa6v.bkt.clouddn.com/Maven01.png" alt="图1"></p>
 
         
     
